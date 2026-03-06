@@ -1,8 +1,53 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
+:root {
+
+}
+
+/*Checkbook CSS*/
+#top-Key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#Checkbook-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+
+#inputs {
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-field {
+    width: 15vw;
+}
+
+#container {
+    display: flex;
+    
+}
+
+/*End of Checkbox CSS*/
 .home {
     background-color: #277b00;
     display: flex;
