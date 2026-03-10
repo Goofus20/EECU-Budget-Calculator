@@ -7,22 +7,25 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>EECU Budget Calculator</title>
 </head>
 
 <body class="home">
     <h1 class="index">Career Options</h1>
-    <input type="search" name="Search" id="career-search" placeholder="Search" onkeyup="filterFunction">
+    
+    <div class="search-container">
+    <input type="search" id="career-search" placeholder="Search Careers...">
+    <ul id="search-list"></ul>
+</div>
+    
     <ul id="search-list">
-    </ul>
-</span>
-<br>
-    <a href="budget.html" class="next-btn">Continue</a> <!--button for now to take to next page-->
+        </ul>
 
+    <br>
+    <a href="budget.html" class="next-btn">Continue</a>
+
+    <script src="script.js"></script>
 </body>
-<script href="script.js"></script>
 
 </html>

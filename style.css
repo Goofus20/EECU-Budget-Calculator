@@ -5,7 +5,8 @@
 }
 
 :root {
-
+    --primary-color: #277b00;
+    --secondary-color: #d9d9d9;
 }
 
 /*Checkbook CSS*/
@@ -86,7 +87,7 @@ a.prev-btn {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 100%;
     background-color: #d9d9d9;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
@@ -96,7 +97,22 @@ a.prev-btn {
     font-size: 32px;
     font-weight: 400;
 }
+/* The container stays in the layout */
+.search-container {
+    position: relative; 
+    width: 300px; /* Adjust to your design */
+}
 
+
+#search-list li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+#search-list li:hover {
+    background-color: #f0f0f0;
+}
 .budget {
     background-color: #C6F9FB;
     font-size: 20px;
