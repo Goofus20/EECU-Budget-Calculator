@@ -13,17 +13,20 @@
 
 <body class="home">
     <h1 class="index">Career Options</h1>
-    
+   <form> 
     <div class="search-container">
-    <input type="search" id="career-search" placeholder="Search Careers...">
-    <ul id="search-list"></ul>
+    <select type="search" id="career-search" placeholder="Search Careers..." required>
+    <option value="0">select career...</option>
+    </select>
 </div>
     
     <ul id="search-list">
         </ul>
 
-    <br>
-    <a href="budget.html" class="next-btn" id="nxt-career">Continue</a>
+    <br>  
+<input value="continue" class="next btn" id="nxt-career" type="submit"></input>
+</form>
+
 
     <script src="script.js"></script>
 </body>
