@@ -14,11 +14,9 @@
 </head>
 
 <body class="budget">
-    <!--career list search-->
     <div class="annual-income">
         <p>
             Annual Income: $<span id="annual-income-js">0
-            <!--Blank for it to be used by JS-->
             </span>
         </p>
 
@@ -26,7 +24,6 @@
     <div class="monthly-income">
         <p>
             Monthly Income: $<span id="monthly-income-js">0
-            <!--Blank for it to be used by JS-->
             </span>
         </p>
 
@@ -35,24 +32,33 @@
     <div class="taxes">
         <!--All $ has to be replaced/added to by JS-->
         <h1>Pay Period Deductions</h1>
-        <p>Federal Taxes<br> <!--This has to be changed by JS-->% = $</p>
-        <p>State Taxes<br> 7% = $</p>
-        <p>Social Security<br> 6.2% = $</p>
-        <p>Medicare<br> 1.45% = $</p>
-        <p>State Disabilty<br> 1% = $</p>
-        <p>Retirement Investment<br> 5% = $</p>
+        <p>Federal Taxes<br> % = $<span id="federal">0</span></p>
+        <p>State Taxes<br> 4% = $<span id="state">0</span></p>
+        <p>Social Security<br> 6.2% = $<span id="ss">0</span></p>
+        <p>Medicare<br> 1.45% = $<span id="medical">0</span></p>
         <p>Medical Insurance<br> 180$</p>
     </div>
     <div id="budget-deductions">
-        <h2>Total Deductions = <!--Where JS comes in--></h2>
-    </div>
+        <h2>Total Deductions = <span id="total">0</span></h2>
+        </div>
+        <br>
+        <h2>Net Monthly Income</h2>
+        <div id="net">
+            <span id="monthly">0</span>
+            <p>-</p>
+            <span id="total">0</span>
+            <p>=</p>
+            <span id="paycheck">0</span>
+        </div>
+
+    
     <section class="Cal-ahp">
         <h2>Calculate An Affordable House Payment</h2>
         <p>Gross Monthly Income (#3 above) x 33% (0.33) = <br>Affordable Monthly House Payment</p>
         <div class="Formal">
-            <p>Gross Monthly Income</p>
+            <span id="monthly">0</span>
             <p>(x) 0.33 =</p>
-            <p>Affordable Monthly  House Payment</p>
+            <span id="payment">0</span>
         </div>
         
     </section>

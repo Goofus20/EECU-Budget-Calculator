@@ -136,6 +136,11 @@ a.prev {
     align-items: center;
 }
 
+.taxes span {
+    margin-left: 0.5vh;
+}
+
+
 
 .annual-income, .monthly-income p{
     line-height: 3vh;
@@ -153,13 +158,7 @@ a.prev {
     border-radius: 20px;
 }
 
-#annual-income-js {
-    background-color: #277b00;
-}
 
-#monthly-income-js {
-    background-color: #277b00;
-}
 
 .taxes {
     background-color: #E4FBFB;
@@ -201,8 +200,8 @@ footer a {
     gap: 20px;
     margin: 50px;
 }
-.Formal p {
-    text-decoration: overline;
+.Formal span {
+    text-decoration: underline;
 }
 .Formal p:nth-last-child(2) {
     text-decoration: none;
@@ -230,4 +229,15 @@ h2 {
 
 .active {
     visibility: visible;
+}
+
+#net {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px;
+}
+#net span {
+    text-decoration: underline;
 }
