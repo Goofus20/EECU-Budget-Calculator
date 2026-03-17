@@ -82,6 +82,35 @@ function totalDeductions () {
 }
 
 totalDeductions();
+    
+function netincome () {
+    const A_income = document.getElementById("y");
+    const t = document.getElementById("t");
+    const p = document.getElementById("paycheck");
+
+
+        const annual = parseFloat(savedSalary);
+
+   if (A_income) {
+    console.log("iincome")
+        A_income.innerText = annual.toLocaleString();
+   }
+
+            let deduct = SStax + Medtax + Statetax + fedtax + 180;
+
+    if (t) {
+        t.innerText = deduct.toLocaleString();
+    }
+
+        let c = annual - deduct;
+
+        if (p) {
+            console.log(c);
+            p.innerText = c.toLocaleString();
+        }
+}
+
+netincome();
 
 function housePayment () {
     const M_income = document.getElementById("monthly");
